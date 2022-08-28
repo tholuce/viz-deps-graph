@@ -2,10 +2,10 @@
   "name": "viz-server",
   "version": "1.0.0",
   "description": "asasdasd",
-  "main": "dist/index.js",
+  "main": "bin/index.js",
   "scripts": {
-    "start": "node dist/index.js",
-    "test:dev": "node dist/index.js /home/vva/projects",
+    "start": "node bin/index.js",
+    "test:dev": "node bin/index.js /home/vva/projects",
     "start:dev": "concurrently \"npx tsc --watch\" \"nodemon\"",
     "test": "jest",
     "build": "npx tsc"

@@ -27,7 +27,7 @@ const getPackageFromDirs = (path: string): PackageFile[] => {
       try {
         packageFiles = packageFiles.concat(getPackages(join(path, name)));
       } catch {
-        return;
+        return [];
       }
     });
   return packageFiles;
